@@ -1,0 +1,121 @@
+.contents{
+    text-align: center;
+}
+.form-right{
+    float:right;
+}
+#email{
+    margin-right: 4px;
+    width: 222px;
+    height: 38px;
+}
+#password{
+    margin-right: 4px;
+    width: 222px;
+    height: 38px;
+}
+.loginbutton{
+    width: 72px;
+    height: 38px;
+}
+.form-control{
+    width:221px;
+    height:35px;
+}
+.copy-container{
+    padding-top:70px;
+    height:500px;
+    background-image: url("tumblr_oq5m9nCVkQ1wq2w3do1_1280.jpg");
+    background-size:cover;
+}
+.copy-container-title{
+    font-size: 72px;
+    padding-top: 65px;
+    color: #373A3C;
+    font-weight:450;
+}
+.copy-container-subtitle{
+    font-weight:400;
+    padding-bottom: 30px;
+    border-bottom:thin solid burlywood;
+}
+.copy-container-text{
+    padding-top:10px;
+}
+form{
+    margin: 0 auto;
+}
+#yourEmail{
+    width: 300px;
+    height: 38px;
+}
+.loginbutton2{
+    margin-left: 5px;
+}
+.main-content{
+    height: 800px;   
+}
+.main-content-title{
+    padding-top: 44px;
+    color: #373A3C;
+    font-weight:400;
+}
+.main-content-explain{
+    font-weight:400;
+    color: #373A3C;
+
+}
+.sub-contents{
+    padding:70px 100px 50px 100px;
+}
+.sub-content{
+    float: left;
+    width: 358px;
+    height: 486px;
+    margin-right:21px; 
+}
+.main-content-sub-title{
+    font-weight:normal;
+    text-align: left;
+}
+.main-content-sub-title i{
+    margin-right: 5px;
+    color: #373A3C;
+}
+.sub-content img{
+    width: 353px;
+    height: 285px;
+}
+.main-content-nakami{
+    text-align: left;
+}
+.last-page{
+    padding-top: 125px;
+    height: 400px;
+    background-color: #373A3C;
+}
+.last-page-title{
+    color: azure;
+    padding-bottom: 5px;
+}
+.last-page-main{
+    color: azure;
+    font-weight:400;
+    padding-bottom: 24px;
+}
+#app-icon{
+    width: 194px;
+    height: 64px;
+}
+footer{
+    height:36px;
+    width:100%;
+    background-color:black;
+}
+footer p{
+    margin-top:5px;
+    margin-right:20px;
+    color:#373A3C;
+
+    float: right;
+}
