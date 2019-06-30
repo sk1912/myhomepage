@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>架空のカフェ検索アプリ</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="cafe.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">MyCafeApp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Home">Home<span class="sr-only">(current)</span></a><!--spanの←これなに？？-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Download-The-App">Download The App</a>
+                </li>
+            </ul>
+            <div class="form-right"><!--formの中に入れてfloat欠けてもかからないよ-->
+                <form class="form-inline">
+                    <input type="email" class="form-control col" placeholder="Email" id="email">
+                    <input type="password" class="form-control col" placeholder="Password" id="password">
+                    <button class="loginbutton btn btn-outline-light" type="submit">Login</button>
+                        <!--コピペは<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->               
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="copy-container" id="Home">
+        <div class="contents">
+            <h1 class="copy-container-title">My Favorite Cafe App!</h1>
+            <h5 class="copy-container-subtitle">This is why YOU should download this fantastic app!</h5>
+            
+            <p class="copy-container-text">Want to know more? Join our mailing list!</p>
+            
+            <nav class="navbar">
+                <form class="form-inline">
+                    <div class="input-group">
+                        <!--サンプルはここにこれが入っていた<div class="input-group-prepend">-->
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                        <!--</div>-->
+                        <input type="text" class="form-control" placeholder="Your Email" aria-label="Username"  id="yourEmail">
+                        <button class="loginbutton2 btn btn-secondary">Sign up</button>
+                    </div>
+                </form>
+            </nav>
+                
+        </div>
+    </div>
+    
+    <div class="main-content" id="About">
+        <div class="contents">
+            <h1 class="main-content-title">Why This App Is Awesome</h1>
+            <h5 class="main-content-explain">Summary, once again, of your app's awesomeness</h5>
+            <div class="sub-contents">
+                <div class="sub-content card">
+                    <img class="card-img-top" src="f1d814836ccf3db005b0691d7f58888d_s.jpg" alt="">               
+                    <div class="card-body">
+                        <h4 class="main-content-sub-title card-title"><i class="fas fa-anchor"></i>Card title</h4>
+                        <p class="main-content-nakami card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                <div class="sub-content card">
+                    <img class="card-img-top" src="209b4ba5dbb88826d9ca551f51dd28f5_s.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="main-content-sub-title card-title"><i class="fas fa-bicycle"></i>Card title</h4>
+                        <p class="main-content-nakami card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                <div class="sub-content card">
+                    <img class="card-img-top" src="2346cfca24e836cc110e3bf00e84992e_s.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="main-content-sub-title card-title"><i class="fas fa-birthday-cake"></i>Card title</h4>
+                        <p class="main-content-nakami card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="last-page" id="Download-The-App">
+        <div class="contents">
+            <h2 class="last-page-title">Download the app!</h2>
+            <h4 class="last-page-main">Really, why should I download this app??</h4>
+            <img src="App-Store-Icon.png" alt="" id="app-icon">
+        </div>
+    </div>
+
+    <footer>
+        <p>2018 @kamishiro</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+</body>
+</html>
